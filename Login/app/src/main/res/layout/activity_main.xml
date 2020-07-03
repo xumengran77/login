@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context="com.example.administrator.login.MainActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:password="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/ed1"/>
+        <LinearLayout
+            android:layout_below="@id/ed2"
+            android:id="@+id/liner"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="登录"
+                android:background="@color/lightSkyBlue"
+                android:textColor="@color/white"
+                android:layout_marginLeft="50dp"/>
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="注册"
+                android:background="@color/lightSkyBlue"
+                android:textColor="@color/white"
+                android:layout_marginLeft="140dp"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

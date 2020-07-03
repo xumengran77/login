@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="jilu">聊天记录</string>
+    <string name="lianxiren">联系人</string>
+    <string name="dongtai">好友动态</string>
+    <string name="geren">个人信息</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
